@@ -8,7 +8,7 @@ longest = s[0]
 current = s[0]
 
 # scan the string and iterate over it
-for i in s[0:]:
+for i in s[1:]:
     if i >= current[-1]:
         #concatenate string if above if statement is satisfied
         current += i
